@@ -21,8 +21,7 @@ ui.buttons = {
 }
 
 ui.inputs = {
-  copy: document.querySelector('.code-copy-input'),
-  paste: document.querySelector('.code-paste-input')
+  id: document.querySelector('#id')
 }
 
 ui.selector = {

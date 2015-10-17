@@ -5,7 +5,7 @@ var ipc = require('ipc')
 
 var mb = menubar({
   width: 700,
-  height: 300,
+  height: 400,
   index: 'file://' + path.join(__dirname, 'app.html'),
   icon: 'file://' + path.join(__dirname, 'img', 'Icon.png')
 })
