@@ -7,7 +7,8 @@
     "test": "standard",
     "start": "electron .",
     "build": "browserify caller.js | uglifyjs -c > caller.bundle.js",
-    "packager": "electron-packager . VideoCat --platform=darwin --arch=x64 --version=0.34.0 --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=node_modules/browserify --ignore=node_modules/wzrd --ignore=node_modules/standard && cp img/Icon.icns ScreenCat.app/Contents/Resources/atom.icns",
+    "packager": "electron-packager . VideoCat --platform=darwin --arch=x64 --version=0.34.0 --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=node_modules/browserify --ignore=node_modules/wzrd --ignore=node_modules/standard && cp img/Icon.icns VideoCat-darwin-x64/VideoCat.app/Contents/Resources/atom.icns",
+    "postpackager": "zip -r VideoCat-darwin-x64.zip VideoCat-darwin-x64",
     "dev": "wzrd remote.js:remote-bundle.js"
   },
   "repository": {
@@ -32,6 +33,7 @@
     "electron-prebuilt": "^0.34.0",
     "standard": "^5.3.1",
     "tachyons": "^3.0.1",
+    "uglifyjs": "^2.4.10",
     "wzrd": "^1.3.1"
   },
   "dependencies": {
