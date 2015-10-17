@@ -1,7 +1,7 @@
 # videocat
 webrtc video sharing electron app for mac os.
 
-Idea borrowed from [screencat](https://github.com/maxogden/screencat).
+Idea and styles borrowed from [screencat](https://github.com/maxogden/screencat).
 
 ![videocat](https://cloud.githubusercontent.com/assets/1183541/10559177/c0ffd4b0-751c-11e5-8615-94442c814bff.png)
 
@@ -38,7 +38,7 @@ Go and visit https://fraserxu.me/videocat?{ID}
 I use gh-pages to host static page.
 
 ```
-git checkout gh-pages
+git checkout -b gh-pages
 git reset --hard origin/master
 git add --all
 git commit -m 'gh-pages update'
