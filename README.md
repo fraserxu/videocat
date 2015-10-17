@@ -12,7 +12,7 @@ Usage
 
 **The publisher**
 
-* Open the VideoCat app.
+* Download and open the [VideoCat app](https://github.com/fraserxu/videocat/releases/download/v0.0.1/VideoCat-darwin-x64.zip).
 * Select the camera and input an unique ID.
 * Click the Share Stream button.
 
